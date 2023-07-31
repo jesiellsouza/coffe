@@ -1,1 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+
+  background-color: #29342e;
+}
+
+.navbar-logo img {
+  width: 150px;
+  position: absolute;
+  left: 30px;
+  top: 0;
+  border-bottom: 7px solid #a59f6d;
+  border-left: 7px solid #a59f6d;
+  border-right: 7px solid #a59f6d;
+}
+
+.navbar-menu ul {
+  display: flex;
+  padding: 10px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.navbar-menu a {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: #a59f6d;
+
+  transition: 0.4s;
+}
+
+.navbar-menu a:hover {
+  color: #e7d643;
+}
